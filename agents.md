@@ -11,6 +11,7 @@
 ## Current features
 
 - Responsive, single-page personal site with About, Recruiting, Talk to me, and Pitch me a job sections.
+- Larisa's supplied portrait is displayed in the home-page hero.
 - Recruiting overview distinguishes healthcare recruiting from Larisa's developing interest in IT recruiting.
 - Accessible mobile navigation, keyboard dismissal, and skip-to-content link.
 - Visitor-local automatic day/night theme, refreshed while the page remains open.
