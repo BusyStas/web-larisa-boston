@@ -1,19 +1,27 @@
-Maintain this file, and add my requests to copilot, and what features this web site has.
+# Larisa Boston website
 
+## Requests and product direction
 
-I build a web site for Larisa. Don't put her last name there yet.
-We need to build a personal web site (similar to stas.boston) - for Larisa
-It will have similar sections as stas.boston, including talk to me (agent), and pitch me a job.
+- Build a personal website for Larisa, inspired by the section layout and visual style of stas.boston.
+- Do not publish Larisa's last name until she approves it.
+- Present her current focus as healthcare recruiting and her interest in exploring IT recruiting. Do not invent work history, credentials, or personal details.
+- Use a light color scheme from 7:00 a.m. to 7:00 p.m. in the visitor's local time and a dark scheme outside those hours.
+- Plan for Google sign-in, APIs hosted at `api.preciousstone.info` and `api.contentedwife.com`, and Cloudflare R2-hosted quick-load lists such as blog posts and jobs.
 
-She is Health Recruiter, but thinking of IT recruiter.
- 
+## Current features
 
-Style:
-    - Very similar style as stas.boston
-    - If currently daytime it should have light color scheme, if night then dark color schema
+- Responsive, single-page personal site with About, Recruiting, Talk to me, and Pitch me a job sections.
+- Recruiting overview distinguishes healthcare recruiting from Larisa's developing interest in IT recruiting.
+- Accessible mobile navigation, keyboard dismissal, and skip-to-content link.
+- Visitor-local automatic day/night theme, refreshed while the page remains open.
+- Talk-to-me and job-pitch interface previews clearly indicate that their services are not connected. They do not collect or transmit visitor data.
+- No surname, contact details, career history, endorsements, or other unverified personal information is published.
 
-Anticipate integerations:
-    - Primarily Google Sign in 
-    - Backend in api.preciousstone.info and api.contentedwife.com
-    - Quick-load lists caould be in Cloudfare R2 (blog posts and jobs list)
+## Planned integrations and content
+
+- Configure Google sign-in and connect the conversation assistant to the appropriate authenticated API.
+- Connect job pitches to the backend with clear consent, validation, and error handling before collecting or storing submissions.
+- Confirm API routes, authorization requirements, and account ownership for both backend domains before implementing requests.
+- Use Cloudflare R2 for read-only blog and job-list data if/when those sections are added.
+- Add Larisa-approved biography, experience, contact links, and other personal content when supplied.
  
