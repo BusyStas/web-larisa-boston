@@ -1,5 +1,7 @@
 # Larisa Boston website
 
+    - The web side itself is in Flask (Python)
+    
 ## Requests and product direction
 
 - Build a personal website for Larisa, inspired by the section layout and visual style of stas.boston.
