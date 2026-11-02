@@ -89,9 +89,9 @@ h1, h2, h3 { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; lette
 .hero-tags { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 34px; }
 .hero-tags span { padding: 6px 12px; border: 1px solid var(--line); border-radius: 99px; color: var(--muted); font-size: .76rem; font-weight: 600; }
 
-.hero-photo { position: relative; width: min(100%, 390px); justify-self: center; padding: 12px; border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 48% 48% 25px 25px; background: color-mix(in srgb, var(--surface) 76%, transparent); box-shadow: var(--shadow); transform: rotate(2deg); }
-.hero-photo img { width: 100%; aspect-ratio: 3 / 4; border-radius: 48% 48% 17px 17px; object-fit: cover; object-position: center 32%; }
-.photo-caption { position: absolute; right: -18px; bottom: 34px; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface); box-shadow: var(--shadow); color: var(--ink); font-size: .75rem; font-weight: 700; transform: rotate(-2deg); }
+.hero-photo { position: relative; width: min(100%, 480px); aspect-ratio: 1; align-self: center; justify-self: center; padding: 12px; border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 30px; background: color-mix(in srgb, var(--surface) 76%, transparent); box-shadow: var(--shadow); }
+.hero-photo img { position: absolute; inset: 12px; width: calc(100% - 24px); height: calc(100% - 24px); border-radius: 20px; object-fit: cover; object-position: center 32%; }
+.photo-caption { position: absolute; right: -18px; bottom: 28px; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface); box-shadow: var(--shadow); color: var(--ink); font-size: .75rem; font-weight: 700; transform: rotate(-2deg); }
 .photo-caption span { color: var(--accent); }
 .hero-orb { position: absolute; border-radius: 50%; filter: blur(1px); }
 .hero-orb-one { top: 15%; right: 6%; width: 9px; height: 9px; background: var(--accent); opacity: .4; }
@@ -205,7 +205,7 @@ h1, h2, h3 { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; lette
   .hero-layout { grid-template-columns: 1fr; gap: 25px; }
   .hero h1 { font-size: clamp(3.2rem, 13vw, 4.7rem); }
   .hero-lede { font-size: 1.04rem; }
-  .hero-photo { width: min(76vw, 300px); grid-row: 1; }
+  .hero-photo { width: min(76vw, 330px); grid-row: 1; }
   .hero-copy { grid-row: 2; }
   .art-node-right { right: -4%; }
   .scroll-cue { margin-top: 38px; }
