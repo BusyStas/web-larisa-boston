@@ -1,6 +1,7 @@
 # Larisa Boston website
 
     - The web side itself is in Flask (Python)
+    - sitemap.xml  should return every page to maximize visibility
     
 ## Requests and product direction
 
@@ -17,6 +18,7 @@
 - Recruiting overview distinguishes healthcare recruiting from Larisa's developing interest in IT recruiting.
 - Accessible mobile navigation, keyboard dismissal, and skip-to-content link.
 - Visitor-local automatic day/night theme, refreshed while the page remains open.
+- Search-engine sitemap and robots.txt reference for `https://larisa.boston/`.
 - Docker image serves the static site through Nginx on port 8080; Cloud Build config builds and pushes it to Container Registry.
 - Talk-to-me and job-pitch interface previews clearly indicate that their services are not connected. They do not collect or transmit visitor data.
 - No surname, contact details, career history, endorsements, or other unverified personal information is published.
